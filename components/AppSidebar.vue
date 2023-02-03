@@ -12,14 +12,32 @@
       </div>
 
       <nav
-        class="flex flex-col flex-1 mt-5 overflow-y-auto divide-y divide-red-800 !scrollbar-hide"
+        class="
+          flex flex-col flex-1
+          mt-5
+          overflow-y-auto
+          divide-y divide-cyan-800
+          !scrollbar-hide
+        "
         aria-label="Sidebar"
       >
         <div class="px-2 space-y-1">
           <nuxt-link
             to="/"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'index' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'index' }"
           >
             <NewspaperIcon
               class="w-6 h-6 mr-4 text-red-200"
@@ -30,8 +48,20 @@
 
           <nuxt-link
             :to="{ name: 'pinned' }"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'pinned' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'pinned' }"
           >
             <NewspaperIcon
               class="w-6 h-6 mr-4 text-red-200"
@@ -42,8 +72,20 @@
 
           <nuxt-link
             :to="{ name: 'categories' }"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'categories' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'categories' }"
           >
             <CollectionIcon
               class="w-6 h-6 mr-4 text-red-200"
@@ -54,8 +96,20 @@
 
           <nuxt-link
             :to="{ name: 'topics' }"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'topics' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'topics' }"
           >
             <BookOpenIcon
               class="w-6 h-6 mr-4 text-red-200"
@@ -66,8 +120,20 @@
 
           <nuxt-link
             :to="{ name: 'regions' }"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'regions' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'regions' }"
           >
             <LocationMarkerIcon
               class="w-6 h-6 mr-4 text-red-200"
@@ -78,8 +144,20 @@
 
           <nuxt-link
             :to="{ name: 'tags' }"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'tags' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'tags' }"
           >
             <TagIcon class="w-6 h-6 mr-4 text-red-200" aria-hidden="true" />
             Tags
@@ -87,8 +165,20 @@
 
           <nuxt-link
             :to="{ name: 'media' }"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'media' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'media' }"
           >
             <DatabaseIcon
               class="w-6 h-6 mr-4 text-red-200"
@@ -99,8 +189,20 @@
 
           <nuxt-link
             :to="{ name: 'users' }"
-            class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-            :class="{ 'bg-red-600': $route.name === 'users' }"
+            class="
+              flex
+              items-center
+              px-2
+              py-2
+              text-sm
+              font-medium
+              leading-6
+              text-red-100
+              rounded-md
+              group
+              hover:text-white hover:bg-cyan-800
+            "
+            :class="{ 'bg-cyan-800': $route.name === 'users' }"
           >
             <UserGroupIcon
               class="w-6 h-6 mr-4 text-red-200"
@@ -112,7 +214,19 @@
         <div class="pt-6 mt-6">
           <div class="px-2 space-y-1">
             <a
-              class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
+              class="
+                flex
+                items-center
+                px-2
+                py-2
+                text-sm
+                font-medium
+                leading-6
+                text-red-100
+                rounded-md
+                group
+                hover:text-white hover:bg-cyan-800
+              "
             >
               <CogIcon class="w-6 h-6 mr-4 text-red-200" aria-hidden="true" />
               Settings
@@ -120,7 +234,19 @@
 
             <a
               href="#"
-              class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
+              class="
+                flex
+                items-center
+                px-2
+                py-2
+                text-sm
+                font-medium
+                leading-6
+                text-red-100
+                rounded-md
+                group
+                hover:text-white hover:bg-cyan-800
+              "
             >
               <QuestionMarkCircleIcon
                 class="w-6 h-6 mr-4 text-red-200"
@@ -131,8 +257,20 @@
 
             <nuxt-link
               :to="{ name: 'statistics' }"
-              class="flex items-center px-2 py-2 text-sm font-medium leading-6 text-red-100 rounded-md group hover:text-white hover:bg-red-600"
-              :class="{ 'bg-red-600': $route.name === 'users' }"
+              class="
+                flex
+                items-center
+                px-2
+                py-2
+                text-sm
+                font-medium
+                leading-6
+                text-red-100
+                rounded-md
+                group
+                hover:text-white hover:bg-cyan-800
+              "
+              :class="{ 'bg-cyan-800': $route.name === 'users' }"
               v-if="$auth.user.email == 'shakil@dbcnews.tv'"
             >
               <ChartBarIcon

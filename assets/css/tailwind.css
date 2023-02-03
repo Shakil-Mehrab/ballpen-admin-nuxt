@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 .liner-gradient {
-    @apply bg-gradient-to-r from-red-700 via-red-600 to-red-700;
+    @apply bg-gradient-to-r from-cyan-900 via-cyan-600 to-cyan-700;
 }
 
 .vertical-gradient {
-    @apply bg-gradient-to-b from-red-700 via-red-600 to-red-700;
+    @apply bg-gradient-to-b from-cyan-900 via-cyan-600 to-cyan-700;
 }
